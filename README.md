@@ -8,7 +8,7 @@ We use a pre-trained model for this workshop, as the training time is too long t
 ### Get the Code
 Clone this repository, by running 
 
-``` git clone foo```
+``` git clone https://github.com/podulator/Jan2020-NLPLab.git```
 
 ### Create an Amazon SageMaker notebook instance
 
@@ -32,7 +32,7 @@ Clone this repository, by running
     - Enter `50` for Volume size in GB
   - Scroll down to 'Git Repositories'
   - Choose `Clone a public Git repository to this notebook instance only`
-  - Enter the `https` variant of this repository
+  - Enter the `https` variant of this repository, `https://github.com/podulator/Jan2020-NLPLab.git`
   - Hit 'Create notebook instance'
 - ## Watch the CloudWatch logs as it launches
   - Click on your new instances Name, and go to the instance details page
