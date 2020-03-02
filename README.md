@@ -1,16 +1,22 @@
 # NLP with Amazon SageMaker
 
-@roberto - Maybe bang an overview in here, about the state of the nation with NLP or something?
+@roberto 
+
+- Maybe bang an overview in here, about the state of the nation with NLP or something?
+- Times are 'run all cells' times, so super speedy, but give an idea. 
+- :. I think we have time for sure to add a push to ECR, deploy endpoint stage in lab 2
+- && probably a remote endpoint and a prediction in lab 1
+
 
 ## Steps
 
-### Get the Code
+### Get the Code (2 mins)
 
 Clone this repository onto your local machine, by running 
 
 `git clone https://github.com/podulator/Jan2020-NLPLab.git`
 
-### Create an Amazon SageMaker notebook instance
+### Create an Amazon SageMaker notebook instance (10 mins)
 
 - Login to the console at [console.aws.amazon.com](https://console.aws.amazon.com/console/home)
 
@@ -44,7 +50,7 @@ Clone this repository onto your local machine, by running
 
 ### Do the labs
 
-#### Lab 1
+#### Lab 1 (25 mins total, 15 mins training)
 
 In this lab, we’ll train and test a Sentiment Analysis (Text Classification) model on SageMaker using SageMaker’s pre-built Deep Learning containers. 
 These containers are available for TensorFlow, MXNet, PyTorch, and Chainer.
@@ -60,11 +66,11 @@ We'll cover
 - Deploying a batch endpoint
 
 - Steps
-  - Open the `tutorial-1` folder
+  - Open the `tutorial-1` folder in the Jupyter environment
   - Launch the [sentiment-analysis.ipynb](./tutorial-1/sentiment-analysis.ipynb) notebook
   - Step through the cells
 
-#### Lab 2
+#### Lab 2 (10 mins)
 
 Lab 2 involves deploying a BERT model, pre-trained with MxNet and gluonNLP. 
 In this lab we will cover some more advanced Amazon SageMaker features, like 
@@ -74,7 +80,7 @@ In this lab we will cover some more advanced Amazon SageMaker features, like
 - Interacting with Elastic Container Registry (ECR)
 
 - Steps
-  - Open the `tutorial-2` folder
+  - Open the `tutorial-2` folder in the Jupyter environment
   - Launch the [deploy.ipynb](./tutorial-2/deploy.ipynb) notebook
   - Step through the cells
 
